@@ -1,0 +1,169 @@
+.main-container {
+    display: flex;
+    font-family: 'Georgia','Times',serif;
+}
+
+.container {
+    border: 1px solid silver;
+    flex-basis: 88%;
+    padding: 20px;
+}
+
+.column {
+    border: 1px solid silver;
+    flex-basis: 12%;
+    background-color: #f0f0f0;
+}
+
+.img-wiki {
+    width: 90%;
+    padding: 5%;
+}
+
+.main-container a {
+    text-decoration: none;
+    color: #993366;
+}
+
+.main-container a:hover {
+    text-decoration: underline;
+}
+
+.article li li:hover {
+    text-decoration: underline;
+}
+
+.topic {
+    color: black;
+    text-shadow: 1px 0px 1px #3b3b3b;
+}
+
+.advertising {
+    border: 1px solid black;
+    flex-basis: 100%;
+    display: table;
+    width: 100%;
+}
+
+.content {
+    width: 45%;
+    float: left;
+    border: 1px solid silver;
+    background-color: #f0f0f0;
+    padding: 0;
+    margin-right: 20%;
+}
+
+.info {
+    width: 30%;
+    float: left;
+    border: 1px solid silver;
+    background-color: #f0f0f0;
+    padding: 5px;
+
+}
+
+.text {
+    width: 100%;
+    float: left;
+}
+
+.adv {
+    text-align: center;
+    width: 80%;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.leftimg {
+    float:left;
+    width: 13%;
+    padding: 1%;
+    border: 1px solid silver;
+    margin: 7px 7px 7px 0;
+}
+.rightimg  {
+    float: right;
+    width: 23%;
+    padding: 1%;
+    border: 1px solid silver;
+    margin: 7px 0 7px 7px;
+}
+
+h1, h2 {
+    font-size: 200%;
+    border-bottom: 2px solid silver;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.name {
+    background-color: plum;
+    align-content: center;
+    padding: 2px;
+    text-align: center;
+}
+
+.img_y {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+.menu {
+    text-align: right;
+    font-size: 13px;
+}
+.menu a {
+    padding-right: 5px;
+}
+.menu-container {
+    flex-basis: 100%;
+    height: content-box;
+    display: table;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.menu-point {
+    float: right;
+}
+
+.menu-container span {
+    padding-right: 5px;
+    background-color: #f0f0f0 ;
+    border: 1px solid silver;
+}
+
+.info-right {
+    flex-basis: auto;
+}
+
+.info-left {
+    flex-basis: auto;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.info-container {
+    display: flex;
+}
+
+.text-container {
+    float: left;
+}
+
+@media screen and (max-width: 900px) {
+    .column{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .info-left, .info-right {
+        font-size: 10px;
+    }
+}

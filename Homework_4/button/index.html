@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function one() {
+            let element = document.getElementById("button1");
+            document.body.style.backgroundColor = element.style.backgroundColor;
+        }
+        function two() {
+            let element = document.getElementById("button2");
+            document.body.style.backgroundColor = element.style.backgroundColor;
+        }
+        function three() {
+            let element = document.getElementById("button3");
+            document.body.style.backgroundColor = element.style.backgroundColor;
+        }
+        let count = 0;
+        function multi() {
+            count++;
+            if (count === 1) {
+                document.body.style.backgroundColor = "Thistle";
+            }
+            if (count === 2) {
+                document.body.style.backgroundColor = "Khaki";
+            }
+            if (count === 3) {
+                document.body.style.backgroundColor = "MistyRose";
+            }
+            if (count === 4) {
+                document.body.style.backgroundColor = "LightCoral";
+                count = 0;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="green" id="button1"  onclick="one()" style="background-color: lightgreen">
+    <input type="button" value="pink" id="button2" onclick="two()" style="background-color: lightpink">
+    <input type="button" value="blue" id="button3" onclick="three()" style="background-color: lightblue">
+    <input type="button" value="button" id="multi" onclick="multi()" style="background-color: LightSalmon">
+</body>
+</html>

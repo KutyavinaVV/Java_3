@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.liferay:com.liferay.portal.osgi.web.servlet.jsp.compiler:3.0.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/liferay/com.liferay.portal.osgi.web.servlet.jsp.compiler/3.0.4/com.liferay.portal.osgi.web.servlet.jsp.compiler-3.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/liferay/com.liferay.portal.osgi.web.servlet.jsp.compiler/3.0.4/com.liferay.portal.osgi.web.servlet.jsp.compiler-3.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/liferay/com.liferay.portal.osgi.web.servlet.jsp.compiler/3.0.4/com.liferay.portal.osgi.web.servlet.jsp.compiler-3.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

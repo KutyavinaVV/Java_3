@@ -1,0 +1,22 @@
+body {
+    background-color: cadetblue;
+}
+
+.eye1, .eye2{
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: darkgray;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    float: left;
+}
+.ball{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: black;
+    left: 60px;
+    bottom: 30px;
+    position: absolute;
+}
